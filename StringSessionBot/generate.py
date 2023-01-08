@@ -4,6 +4,7 @@ from telethon import TelegramClient
 from pyrogram import Client, filters
 from pyrogram1 import Client as Client1
 from asyncio.exceptions import TimeoutError
+from pyrogram.raw.types import UpdateUserPhoto
 from telethon.sessions import StringSession
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import (
